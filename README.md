@@ -2,7 +2,7 @@
 
 ### Motivation
 
-ECMAScript currently only support a single unconditional catch clause.  If the programmer only wants to handle certain errors, they must test the exception value within the catch clause and potentially rethrow the error.  Users frequently filter for errors based on type using the `instanceof` operator.
+ECMAScript currently only supports a single unconditional catch clause.  If the programmer only wants to handle certain errors, they must test the exception value within the catch clause and potentially rethrow the error.  Users frequently filter for errors based on type using the `instanceof` operator.
 
 ```js
 try {
@@ -76,9 +76,11 @@ try {
 
 ### What about realms and multiple library versions?
 
+*TODO*
 
 ### What about pattern matching?
 
+*TODO*
 
 ### Syntax
 
