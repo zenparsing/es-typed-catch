@@ -147,7 +147,7 @@ Pattern matching relies upon *refutable* patterns.  A refutable pattern is a pat
 
 - The current catch clause accepts *irrefutable* destructuring patterns.  If we wanted a pattern matching `catch` we could not place those patterns in the `catch` head.
 - Users typically don't want to match errors based on structural typing.  The most common way to match errors is by error type.  Pattern matching could support `if` predicates, but putting a type check into an `if` predicate is unnecessarily verbose.
-- In the context of Javascript, pattern matching will probably be a tool used by experienced programmers.  In contrast, we want targeted exception handling to be natural and concise for users of all experience levels.
+- In the context of Javascript, pattern matching will probably be a tool used by experienced programmers.  In contrast, we want targeted exception handling to be natural and concise for users at all experience levels.
 
 ### Syntax
 
