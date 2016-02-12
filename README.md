@@ -1,4 +1,4 @@
-## Typed Catch Expressions for ECMAScript
+## Typed Catch Blocks for ECMAScript
 
 ### Motivation
 
